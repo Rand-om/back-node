@@ -4,7 +4,7 @@ Este es el backend del proyecto, desarrollado en Node.js. A continuación se det
 
 ## Requisitos previos
 
-- [Node.js v18.20.5](https://nodejs.org/en/) (se recomienda esta versión).
+- [Node.js v18.20.5](https://nodejs.org/en/download) (se recomienda esta versión).
 
 ## Pasos para ejecutar el Backend
 
