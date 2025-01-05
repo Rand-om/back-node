@@ -50,7 +50,16 @@ Este es el backend del proyecto, desarrollado en Node.js. A continuación se det
    - `CONTRASEÑA_POSTGRESQL`: La contraseña asociada a tu usuario de PostgreSQL.
    - `BD_POSTGRESQL`: El nombre de la base de datos que vas a utilizar.
 
-4. **Añadir registros de prueba a la base de datos:**
+4. **Crear archivo `.env`:**
+   Crea un archivo llamado `.env` en la raíz del proyecto y agrega la siguiente variable de entorno:
+
+   ```
+   PORT=3000
+   ```
+
+   Esta variable establece el puerto en el que el servidor escuchará las peticiones. Puedes cambiar el valor de `PORT` si lo deseas, pero el valor por defecto es `3000`.
+
+5. **Añadir registros de prueba a la base de datos:**
    Para añadir registros de prueba a la tabla `posts` en tu base de datos, puedes ejecutar la siguiente consulta en **pgAdmin**:
 
    ```sql
@@ -70,7 +79,7 @@ Este es el backend del proyecto, desarrollado en Node.js. A continuación se det
 
    Esta consulta insertará 10 registros de prueba en la tabla `posts`, lo que te permitirá ver datos en la base de datos y probar el backend.
 
-5. **Iniciar el servidor:**
+6. **Iniciar el servidor:**
    Para poner en marcha el servidor, ejecuta:
 
    ```bash
@@ -79,7 +88,7 @@ Este es el backend del proyecto, desarrollado en Node.js. A continuación se det
 
    El servidor debería estar corriendo en el puerto especificado en el archivo de configuración del proyecto (por defecto puede ser el `3000` o cualquier otro puerto configurado).
 
-6. **Verificar el funcionamiento:**
+7. **Verificar el funcionamiento:**
    Abre tu navegador y visita `http://localhost:3000/posts` (o el puerto configurado) para verificar que el servidor está funcionando correctamente.
 
 ## Notas
