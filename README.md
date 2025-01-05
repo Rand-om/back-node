@@ -1,6 +1,6 @@
 # Backend - Node.js
 
-Este es el backend del proyecto, desarrollado en Node.js. A continuación se detallan los pasos para descargar, instalar y poner en marcha el backend.
+Este es el backend del proyecto, desarrollado en Node.js. A continuación se detallan los pasos para su descarga, instalación y puesta en marcha.
 
 ## Requisitos previos
 
