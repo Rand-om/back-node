@@ -38,7 +38,8 @@ Este es el backend del proyecto, desarrollado en Node.js. A continuación se det
    El servidor debería estar corriendo en el puerto especificado en el archivo de configuración del proyecto (por defecto puede ser el `3000` o cualquier otro puerto configurado).
 
 4. **Verificar el funcionamiento:**
-   Abre tu navegador y visita `http://localhost:3000` (o el puerto configurado) para verificar que el servidor está funcionando correctamente.
+   Abre tu navegador y visita `http://localhost:3000/posts` (o el puerto configurado) para verificar que el servidor está funcionando correctamente, si tienes
+   configurada la base de datos de forma correcta, se debería entregar un listado con los posts existentes
 
 ## Notas
 
